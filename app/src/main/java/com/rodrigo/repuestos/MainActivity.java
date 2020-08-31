@@ -28,6 +28,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void Saludar(View view){
         Toast.makeText(this,"Hiciste Click",Toast.LENGTH_LONG).show();
+        txtTitulo.setTextColor(Color.BLUE);
+        btnIniciar.setTextColor(Color.GREEN);
+        btnIniciar.setBackgroundColor(Color.BLUE);
     }
 
     public void Despedir(View view){

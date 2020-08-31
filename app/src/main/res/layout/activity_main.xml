@@ -22,7 +22,7 @@
         android:id="@+id/btnIniciar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="Despedir"
+        android:onClick="Saludar"
         android:text="INICIAR APP"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
