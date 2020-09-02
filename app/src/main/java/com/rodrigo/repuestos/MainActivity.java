@@ -10,7 +10,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    //creamos las variables que haran refereci a los widgets
+    //creamos las variables que haran referecia a los widgets
     private TextView txtTitulo;
     private Button btnIniciar;
 
@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         btnIniciar = findViewById(R.id.btnIniciar);
 
 
+
     }
 
     public void Saludar(View view){
@@ -35,5 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void Despedir(View view){
         Toast.makeText(this,"Adios",Toast.LENGTH_LONG).show();
+        txtTitulo.setTextColor(Color.BLACK);
+        btnIniciar.setBackgroundColor(Color.WHITE);
     }
 }
